@@ -1,0 +1,145 @@
+
+
+#section1 {
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/business.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  padding-top: 3%;
+}
+
+.motto {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 28px;
+  font-weight: bold;
+  color: red;
+}
+
+#section2 {
+  text-align: center;
+  margin-top: 5%;
+  min-height: 400px;
+}
+
+.span1 {
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+}
+
+.row {
+  margin-top: 5%;
+}
+
+.fas {
+  font-size: 50px;
+  padding-bottom: 5%;
+}
+
+.hr {
+  border: 3px solid black;
+  letter-spacing: 2px;
+  width: 35%;
+  margin-top: 10%;
+  padding-top: 0;
+}
+
+#footer{
+padding-top: 2%;
+background-color: black;
+min-height: 200px;
+
+}
+
+.end-hr {
+  margin-top: 3%;
+  border: 1px solid white;
+  width: 80%;
+  }
+
+
+/* ==================   Section 3  ==================== */
+
+#section3 {
+  margin-top: 15%;
+  padding-top: 15%;
+  min-height: 500px;
+  width: auto;
+  text-align: center;
+}
+
+.merch-img {
+  height: 375px;
+  width: 275px;
+}
+
+
+/* ============ preview section ============= */
+
+.preview-text {
+  font-size: 15px;
+  text-align: left;
+  margin-top: 10%;
+  padding-left: 7%;
+  width: 40%;
+}
+
+.preview-img {
+  height: 550px;
+  width: 425px;
+  position: absolute;
+  left: 50%;
+  border-radius: 35%;
+}
+
+.bullets {
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 18px;
+  line-height: 75px;
+}
+
+
+/* =============  paymnet options ============= */
+
+  #payment {
+    margin-top: 200px;
+    text-align: center;
+
+  }
+
+.payment-img {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 100px;
+}
+
+
+/* ================== Media Queries ==================== */
+@media (max-width: 768px) {
+
+  #section1 {
+    width: auto;
+    background-size: contain;
+    max-height: 240px;
+  }
+
+
+
+  .why {
+    padding-top: 15%;
+  }
+
+  .preview-img {
+    height: 40%;
+    width: 40%;
+    position: absolute;
+  }
+
+  #payment {
+  min-height: 300px;
+  }
+}
